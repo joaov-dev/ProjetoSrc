@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+*{
+    font-family: "Quicksand", "arial", "helvetica", "sans-serif";
+
+    background-color: #ecebec;
+}
+
+/* 
+CSS PARA O HEADER (NOME E LOGO)
+*/
+
+header {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 1.5rem 0;
+}
+
+header button{
+    border: none;
+    padding: 0 1rem;
+}
+
+header h1 { 
+    font-size: 3rem;
+    font-weight: 600;
+
+    color: #f5b141;
+
+}
+
+header a{
+    margin: 0;
+}
+
+.logo {
+    padding: 0 1rem;
+}
+
+.back{
+    width: 5%;
+}
+
+/* 
+CSS PARA O MAIN (DIV ATLETA E DIV PROFISSIONAL)
+*/
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.widget{
+    width: 80%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coluna{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.linha2{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    border-radius: 1rem;
+
+    margin-top: 5%;
+
+    gap: 1rem;
+}
+
+.colunaE{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #969696;
+
+    padding-bottom: 1rem;
+}
+
+.colunaE img{
+
+    background-color: #969696;
+}
+
+.colunaD{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #969696;
+
+    gap: 1rem;
+}
+
+.colunaD img{
+
+    background-color: #969696;
+}
+
+.colunaD p{
+    margin-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: #969696;
+
+    padding: 1rem;
+
+    border: 2px solid black;
+    border-radius: 1rem;
+
+    margin-top: 0%;
+}
+
+.linha p{
+
+    background-color: #969696;
+}
+
+.colEsquerda{
+    width: 97.5%;
+    height: 25rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    justify-content: center;
+    text-align: top;
+
+    background-color: #969696;
+
+    border: 2px solid black;
+    
+    border-radius: 1rem;
+
+
+}
+
+.colEsquerda p{
+
+    background-color: #969696;
+}
+
+.colDireita{
+    width: 97.5%;
+    height: 25rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+
+    border-radius: 1rem;
+
+
+}
+
+.rests{
+    margin-bottom: 4.5rem;    
+}
+
+.dieta{
+    margin-bottom: 4.5rem;   
+    padding-left: 0.5rem;
+    text-decoration: underline; 
+}
+
+.colDireita li{
+    height: 10rem;
+
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+
+    background-color: #969696;
+
+    border: 2px black solid;
+    border-radius: 1rem;
+}
+
+.colDireita ul{
+    width: 100%;
+}
+
+#drop {
+    width: 65%;
+    padding: 0.5rem;
+}
+
+.pBar {
+    width: 60%;
+}
+
+#bar2 {
+    padding-top: 1.7rem;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    margin-top: 2rem;
+    margin-bottom: 5rem
+}
+
+.baixo{
+    width: 45%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    background-color: #969696;
+
+    padding: 0.75rem 2rem;
+
+    border: 2px black solid;
+    border-radius: 1rem;
+
+}
+
+.baixo img{
+    width: 1.75rem;
+
+    background-color: #969696;
+}
+.baixo a{
+    background-color: #969696;
+}
+
+.coluna1{
+    display: flex;
+    flex-direction: column;
+}
+
+.linha1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menudrop {
+    margin-top: 0.5rem;
+}
+
+.menudrop a{
+    padding: 0.5rem;
+}
+
+.menudrop a:hover{
+    background-color: #969696;
+    border-radius: 0.75rem;
+}
+
+#burguer{
+    display: none;
+}
+
+.colEsquerda a{
+
+    background-color: #969696;
+}
+
+.colEsquerda ul{
+
+    background-color: #969696;
+    border: none;
+}
+
+.colEsquerda li{
+
+    background-color: #969696;
+    border: none;
+}
+.ord{
+    display: block;
+    justify-content: space-between;
+}
+
+.tit{
+    display: block;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+

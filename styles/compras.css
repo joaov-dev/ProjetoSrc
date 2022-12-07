@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+*{
+    font-family: "Quicksand", "arial", "helvetica", "sans-serif";
+
+    background-color: #ecebec;
+}
+
+/* 
+CSS PARA O HEADER (NOME E LOGO)
+*/
+.botao{
+    background-color: #afafaf;
+    border-radius: 1rem;
+    border: none;
+}
+.check{
+    width: 1rem;
+    background-color: #afafaf;
+}
+
+header {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 7rem;
+
+    
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem; 
+}
+
+header h1 { 
+    font-size: 4rem;
+    font-weight: 600;
+
+    color: #f5b141; 
+
+    padding-right: 1rem;
+
+}
+
+header a{
+    margin: 0;
+}
+
+.logo {
+    padding-left: 1rem;
+}
+
+.back{
+    width: 5%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 5%;
+}
+
+section h2{
+    font-size: 2rem;
+
+    background-color: #969696;
+}
+section ol{
+    padding-top: 0.5rem;
+
+    background-color: #969696;
+}
+section li{
+    padding-top: 0.5rem;
+    background-color: #969696;
+}
+
+section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 50%;
+    border: solid black 2px;
+    border-radius: 1rem;
+
+    background-color: #969696;
+
+    padding: 1rem;
+}
+
