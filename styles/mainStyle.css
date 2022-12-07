@@ -197,7 +197,7 @@ main {
     text-decoration: underline; 
 }
 
-.colDireita li{
+.subUl a{
     height: 10rem;
 
     align-items: center;
@@ -210,8 +210,10 @@ main {
     border-radius: 1rem;
 }
 
-.colDireita ul{
+.subUl{
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 #drop {

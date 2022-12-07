@@ -54,22 +54,22 @@ main{
     margin-top: 5%;
 }
 
-section h2{
+div h2{
     font-size: 2rem;
 
     background-color: #969696;
 }
-section ol{
+div ol{
     padding-top: 0.5rem;
 
     background-color: #969696;
 }
-section li{
+div li{
     padding-top: 0.5rem;
     background-color: #969696;
 }
 
-section{
+div{
     margin-top: 2rem;
     margin-bottom: 2rem;
     width: 50%;
